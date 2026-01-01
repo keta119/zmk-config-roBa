@@ -64,7 +64,7 @@
             label = "TO_LAYER_0";
         };
 
-        bt0: to_layer_0 {
+        bt0: bt0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -72,7 +72,7 @@
                 <&macro_wait_time 400>,
                 <&bt BT_SEL 0>,
                 <&macro_wait_time 600>;
-            label = "TO_LAYER_0";
+            label = "BT0";
         };
 
         bt1: bt1 {
