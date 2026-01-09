@@ -8,6 +8,11 @@
     quick-tap-ms = <0>;
 };
 
+&lt {
+    quick-tap-ms = <300>;
+    flavor = "balanced";
+};
+
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5 7 8>;
@@ -26,10 +31,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -38,8 +40,7 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
-};
-
+    };
 
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
