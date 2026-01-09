@@ -92,13 +92,6 @@
             label = "BT3";
         };
 
-        login: login {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp lang2 &kp kp_number_5 &kp kp_number_1 &kp kp_number_6 &kp ls(f) &kp i &kp r &kp e &kp lbkt &kp enter>;
-            label = "login";
-        };
-
         Icloud: Icloud {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
