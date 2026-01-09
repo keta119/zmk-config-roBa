@@ -39,56 +39,35 @@
             label = "TO_LAYER_0";
         };
 
-        bt0: bt0 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&tog_off 1 &tog_off 2>,
-                <&macro_wait_time 400>,
-                <&bt bt_sel 0>,
-                <&macro_wait_time 600>;
+bt0: bt0 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <
+        &tog_off 1
+        &tog_off 2
+        &macro_wait_time 400
+        &bt bt_sel 0
+        &macro_wait_time 600
+    >;
+    label = "bt0";
+};
 
-            label = "bt0";
-        };
 
-        bt1: bt1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&tog_off 1 &tog_off 2>,
-                <&macro_wait_time 200>,
-                <&bt bt_sel 1>,
-                <&macro_wait_time 600>,
-                <&tog_on 1>;
+bt1: bt1 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <
+        &tog_off 1
+        &tog_off 2
+        &macro_wait_time 200
+        &bt bt_sel 1
+        &macro_wait_time 600
+        &tog_on 1
+    >;
+    label = "bt1";
+};
 
-            label = "bt1";
-        };
 
-        bt2: bt2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&tog_off 1 &tog_off 2>,
-                <&macro_wait_time 200>,
-                <&bt bt_sel 2>,
-                <&macro_wait_time 500>,
-                <&tog_on 2>;
-
-            label = "bt2";
-        };
-
-        bt3: bt3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&tog_off 1 &tog_off 2>,
-                <&macro_wait_time 200>,
-                <&bt bt_sel 3>,
-                <&macro_wait_time 600>,
-                <&tog_on 1>;
-
-            label = "bt3";
-        };
     };
 
     behaviors {
