@@ -138,14 +138,14 @@
         kakko: kakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp LS(N8) &kp LS(N9) &kp LEFT>;
+            bindings = <&kp LANGUAGE_1 &kp LS(N8) &kp LS(N9) &kp ENTER &kp LEFT>;
             label = "KAKKO";
         };
 
         kagikakko: kagikakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp RIGHT_BRACKET &kp BACKSLASH &kp LEFT>;
+            bindings = <&kp LANGUAGE_1 &kp RIGHT_BRACKET &kp BACKSLASH &kp ENTER &kp LEFT>;
             label = "KAGIKAKKO";
         };
 
