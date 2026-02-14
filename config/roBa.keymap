@@ -203,6 +203,8 @@
 &kp Z           &kp X         &kp C      &kp V        &kp B        &kp LEFT_COMMAND      &kp LEFT_SHIFT   &kp N        &kp M  &mkp MB1  &mkp MB2  &kp SLASH
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp GLOBE  &lt 7 LANG2  &lt 4 SPACE  &lt 3 LANG1           &lt 3 BACKSPACE  &lt 4 ENTER                             &kp LEFT_COMMAND
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         win_layer {
@@ -213,7 +215,7 @@
 &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &lt 5 LANG2  &lt 4 SPACE  &lt 3 LANG1           &lt 3 BACKSPACE  &lt 4 ENTER                             &kp RCTRL
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         ipad_layer {
