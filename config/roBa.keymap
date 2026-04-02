@@ -112,10 +112,7 @@
         shokuin: shokuin {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LANGUAGE_2 &kp F &kp I &kp S &kp I &kp T &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_9 &kp KP_NUMBER_2 &kp RET>,
-                <&macro_press>;
-
+            bindings = <&kp LANGUAGE_2 &kp F &kp I &kp S &kp I &kp T &kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_9 &kp KP_NUMBER_2 &kp RET>;
             label = "SHOKUIN";
         };
 
