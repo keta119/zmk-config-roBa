@@ -126,7 +126,7 @@
         MENKYO: MENKYO {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_2 &kp M &kp E &kp N &kp K &kp Y &kp O &kp RET>;
+            bindings = <&kp LANGUAGE_2 &kp M &kp E &kp N &kp K &kp Y &kp O &kp RET &kp RET>;
             label = "MENKYO";
         };
 
